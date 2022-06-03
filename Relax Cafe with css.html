@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Satisfy&family=Indie+Flower&family=Lobster&family=Oleo+Script&family=Tapestry&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/HTMLSANDBOX/CSS/cafestyles.css">
+    <script src="https://kit.fontawesome.com/92c9c14542.js" crossorigin="anonymous"></script>
+    <title>Relax Coffee</title>
+</head>
+<body style="background-color:#6db6d3">
+    <!-- Restaurant or Cafe, design feature on the site, which enables a user to order a meal. Hot drinks, yes/no option for milk. -->
+    <main>
+    <header>
+        <div class="headerbox"><p>RELAX CAFETERIA <i class="fa-solid fa-coffee-bean"></i></p>
+        </div>
+        <div id="navbar">
+            <nav>
+              <ul>
+                <li><a href="" target="_blank">Home</a></li>
+                <li><a href="" target="_blank">Menu</a></li>
+                <li><a href="" target="_blank">Your Order</a></li>
+              </ul>
+            </nav>
+        </div>    
+    </header>
+        <div class="headerpicture)">
+            <img src="/HTMLSANDBOX/Images/coffeehouse bar counter1.jpg" alt="coffeehouse order counter")>
+        </div>
+    <section>
+        <div class="menu">
+            <h2>Your Menu</h2>
+            <!--need to add 3 drop down or table next to each other for menu item headings-->
+            <p style="color:rgb(239, 68, 21); font-size:20px"><strong>Now You can place your orders online!</strong></p>     
+            <div class="drinks">
+                <ol type="1">
+                    <span><strong>Thirsty</strong></span>
+                    <li>Tea</li>
+                    <li>Lattee</li>
+                    <li>Capuccino</li>
+                    <li>Espresso</li>
+                    <li>Flat white</li>
+                    <li>Orange juice</li>
+                    <li>Apple Juice</li>
+                    <li>Milkshakes</li>
+                    <li>water</li>
+                </ol>
+            </div>
+            <div class="food">
+                <ul>
+                    <span><strong>Hunger</strong></span>
+                    <li>Cheese Sandwich</li>
+                    <li>Ham&Cheese Sandwich</li>
+                    <li>Cheese&Onion Sandwich</li>
+                    <li>Egg&Cress Sandwich</li>
+                    <li>Egg&Bacon Sandwich</li>
+                    <li>Baugettes</li>
+                    <li>Paninis</li>
+                    <li>Pizza</li>
+                    <li>Jacket Potato with your favourite toppings</li>
+                </ul>
+            </div>
+            <div class="salad">
+                <ul>
+                    <span><strong>Salad&Sides</strong></span>
+                    <li>All green</li>
+                    <li>Crispy & Colour</li>
+                    <li>Mix Salad with Cheese</li>
+                    <li>Potato Salad</li>
+                    <li>Chips</li>
+                    <li>Potato Wedge</li>
+                    <li>Onion Rings</li>
+                    <li>Coleslaw</li>
+                    <li>Hummus</li>
+                </ul>
+            </div>
+            <div class="dessert">
+                <ul>
+                    <span><strong>Desserts</strong></span>
+                    <li>Cheesecake</li>
+                    <li>Strawberry Triffle</li>
+                    <li>Chocolate Cake</li>
+                    <li>Sprinkle Doughnut</li>
+                    <li>Choco Doughnut</li>
+                    <li>Vanilla Ice-cream</li>
+                    <li>Chocolate Ice-cream</li>
+                    <li>Strawberry Ice-cream</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+        <hr>
+        <div style="color:beige; font-size: 20px">
+            
+        <section>
+            <form action="/HTML/actionpage.html" target="_blank"><!--design your action page-->
+              <fieldset>
+                  <legend style="font-size:25px; border-color: rgb(211, 134, 19); border-style:ridge;">Your Order</legend>
+                  <h3 style=font-size: 25px">Drinks</h3>                
+            <label for="drinks">Choose your drink please:</label>
+            <input list="drinkoption" name="drinks" id="drinks">
+            <datalist id="drinkoption">
+                <option value="Tea">Option 1
+                <option value="Americano">Option 2</option>
+                <option value="Latte&#769;e">Option 3</option>
+                <option value="Capuccino">Option 4</option>
+                <option value="Flat white">Option 5</option>
+                <option value="Espresso">Option 6</option>
+                <option value="Orange Juice">Option 7</option>
+                <option value="Apple Juice">Option 8</option>
+                <option value="Milkshake Banana">Option9</option>
+                <option value="Milkshake Strawberry">Option 10</option>
+                <option value="Coke"></option>
+                <option value="Fanta"></option>
+                <option value="Sprite"></option>
+                <option value="Water"></option>
+            </datalist>
+            <p>would you like milk for your hot drink(option 1&2 only)?</p>
+            <input type="radio" id="yes" name="milk" value="yes">
+            <label for="milk">Yes</label>
+            <input type="radio" id="no" name="milk" value="no">
+            <label for="milk">No</label>
+            <input type="radio" id="lactosefree" name="milk" value="lactosefree">
+            <label for="milk">Lactosefree</label>
+            <hr>
+            <h3>Sandwiches</h3>
+            <label for="sandwich">Choose your sandwich filling:</label>
+            <input list="options" name="sandwich" id="sandwich">
+            <datalist id="options">
+                <option value="Cheese"></option>
+                <option value="Cheese&Tomato"></option>
+                <option value="Cheese&Onion"></option>
+                <option value="Ham"></option>
+                <option value="Ham&Cheese"></option>
+                <option value="Bacon"></option>
+                <option value="Egg-Bacon"></option>
+                <option value="Egg&Cress"></option>
+                <option value="Sausage"></option>
+                <option value="Sausage&onion"></option>
+                <option value="Tuna&Sweetcorn"></option>
+            </datalist>
+            <p>Choose your bread:</p>
+            <!--question1: Tim if radio is more logical or select? and Question2: is below syntax ok for radio or id's should be different too it seems to be working tough?
+            <input type="radio" id="bread" name="bread" value="white">
+            <label for="bread">White</label>
+            <input type="radio" id="bread" name="bread" value="50/50">
+            <label for="bread">50/50 White/Wholemeal</label>
+            <input type="radio" id="bread" name="bread" value="baugette">
+            <label for="bread">Baugette</label>
+            <input type="radio" id="bread" name="bread" value="toastie">
+            <label for="bread">White Toastie</label>
+            <input type="radio" id="bread" name="bread" value="panini">
+            <label for="bread">Panini</label>-->
+            <label for="bread">Bread Type</label>
+            <select name="bread" id="bread">
+                <option value="default">White slice</option>
+                <option value="50/50 White&Wholemeal">50/50</option>
+                <option value="baugette">Baugette</option>
+                <option value="white toastie">White Toastie</option>
+                <option value="panini">Panini</option>
+            </select>
+
+            <hr>
+    
+            <h3 style=font-size:25px">Desserts & Ice-creams</h3>
+            <label for="dessert">Choose your desserts or flavor:</label>
+            <input list="dessert&ice-cream" id="dessert" name="dessert">
+            <datalist id="dessert&ice-cream">
+            <option value="Strawberry Pancake"></option>
+            <option value="Cherry Pancake"></option>
+            <option value="Cheesecake"></option>
+            <option value="Chocolate Fudge Cake"></option>
+            <option value="Chocolate Ice-cream">
+            <option value="Coconut Ice-cream">
+            <option value="Mint Ice-cream">
+            <option value="Strawberry Ice-cream">
+            <option value="Vanilla Ice-cream">
+            </datalist>
+            <hr>
+
+             </fieldset>
+             <fieldset>
+                 <legend>Your Details</legend>
+                 <label for="first">First name:</label>
+                 <input type="text" id="first" name="first" placeholder="enter your first name"><br>
+                 <label for="last">Last name:</label>
+                 <input type="text" id="last" name="last" placeholder="enter your last name"><br>
+                 <label for="birthday">Birthday:</label>
+                 <input type="date" id="birthday" name="birthday"><br>
+                 <label for="email">Your email:</label>
+                 <input type="email" id="email" name="email"><br>
+                 <label for="tel">Telephone number:</label>
+                 <input type="tel" id="tel" name="tel"><br>
+                 <input type="submit" value="Submit"><input type="reset" value="Reset">
+             </fieldset>
+        </form>
+        </div>
+    </section> 
+</main>
+<hr>
+<footer>
+<h4 class="heading">Contact us</h4>
+<div class="foot-left">
+<p><span>&#9742;</span>020 8805 7777</p>
+<p><span>&#128231;</span>orders@relaxcafeteria.co.uk</p>
+<address>Our address:36 Old St, London EC1V 9AE
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.4185068719635!2d-0.09883518428155602!3d51.52388337963781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761bfa929ab76f%3A0xf030a3610d5136e5!2sOld%20St%20Cafe!5e0!3m2!1sen!2suk!4v1650888191546!5m2!1sen!2suk" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<div class="foot-right">
+    <figure>
+        <figcaption>Opening Hours</figcaption>
+<h5>Opening Hours</h5>
+<ul>
+    <li value="">Monday:7.00-18.00</li>
+    <li value="">Tuesday:7.00-18.00</li>
+    <li value="">Wednesday:7.00-18.00</li>
+    <li value="">Thursday:7.00-18.00</li>
+    <li value="">Friday:7.00-18.00</li>
+    <li value="">Saturday:7.00-18.00</li>
+    <li value="">Sunday:9.00-16.00</li>
+</ul>
+</figure>
+<h5>Careers</h5>
+</div>
+</footer>
+</body>
+</html>

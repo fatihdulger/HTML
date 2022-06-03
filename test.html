@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/HTMLSANDBOX/CSS/css-day1.css">
+        <title>Document</title>
+</head>
+<body>
+    <section>
+        <h1>WWF</h1>
+        <p>The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the conservation, research and restoration of the environment, formerly named the World Wildlife Fund. WWF was founded in 1961.</p>
+        </section>
+        
+        <section>
+        <h1>WWF's Panda symbol</h1>
+        <p>The Panda has become the symbol of WWF. The well-known panda logo of WWF originated from a panda named Chi Chi that was transferred from the Beijing Zoo to the London Zoo in the same year of the establishment of WWF.</p>
+        </section>
+
+        <h1>My First Emoji</h1>
+
+        <p>&#128512;</p>
+        <!--figure tag can be used when you wantto display picture and adding figcaption(it is always a child element to figure
+            then you can use <ol> or <ul> tags with list <li> and assign value)-->
+<h2>Good Examples of Timeless Movies</h2>
+<p>we can name them almost effortlesly with a quick attempt of searching our memory</p>
+<figure>
+            <figcaption>The top 10 movies of all time</figcaption>
+            <ol>
+             <li value="10">Josie and the Pussycats, 2001</li>
+             <li value="9"><cite lang="sh">Црна мачка, бели мачор</cite>, 1998</li>
+             <li value="8"><cite>A Bug's Life</cite>, 1998</li>
+             <li value="7"><cite>Toy Story</cite>, 1995</li>
+             <li value="6"><cite>Monsters, Inc</cite>, 2001</li>
+             <li value="5"><cite>Cars</cite>, 2006</li>
+             <li value="4"><cite>Toy Story 2</cite>, 1999</li>
+             <li value="3"><cite>Finding Nemo</cite>, 2003</li>
+             <li value="2"><cite>The Incredibles</cite>, 2004</li>
+             <li value="1"><cite>Ratatouille</cite>, 2007</li>
+            </ol>
+</figure>
+<hr>
+<section>
+<h2>Your Menu</h2>
+<div class="drinks">
+    <ol type="1">
+        <li>Tea</li>
+        <li>Lattee</li>
+        <li>Capuccino</li>
+        <li>Espresso</li>
+        <li>Flat white</li>
+        <li>Orange juice</li>
+        <li>Apple Juice</li>
+        <li>Milkshakes</li>
+        <li>water</li>
+    </ol>
+</div>
+<div class="food">
+    <ul>
+        <li>Cheese Sandwich</li>
+        <li>Ham&Cheese Sandwich</li>
+        <li>Cheese&Onion Sandwich</li>
+        <li>Egg&Cress Sandwich</li>
+        <li>Egg&Bacon Sandwich</li>
+        <li>Baugettes</li>
+        <li>Paninis</li>
+        <li>Pizza</li>
+        <li>Jacket Potato with your favourite toppings</li>
+    </ul>
+    <ol>
+        <li value="Monday">7.00-18.00</li>
+        <li value="Tuesday">7.00-18.00</li>
+        <li value="Wednesday">7.00-18.00</li>
+        <li value="Thursday">7.00-18.00</li>
+        <li value="Friday">7.00-18.00</li>
+        <li value="Saturday">7.00-18.00</li>
+        <li value="Sunday">9.00-16.00</li>
+    </ol>
+</div>
+</section>
+<hr>
+
+<!--Tables-- has to be wrapped up in table tag then tables have diff tags th this is for creating header columns for rows then td tag for rows each header or data should be nested in <tr>>so there are table, tr, th, td tags related to tables-->
+<h3>List of Managers</h3>
+<p>Please see the whole list of managers on payroll</p>
+ <div class="table1">
+    <table>
+       <tr>
+           <th>Name</th>
+           <th>Company</th>
+           <th>Job title</th>
+           <th>Location</th>
+       </tr>
+       <tr>
+           <td>Fatih</td>
+           <td>Star Catering Supplies</td>
+           <td>Purchasing Manager</td>
+           <td>Walthamstow</td>
+       </tr>
+       <tr>
+           <td>Gorkem</td>
+           <td>Eda Quality Foods</td>
+           <td>Purhcasing Manager</td>
+           <td>Enfield</td>
+       </tr>
+       <tr>
+           <td>Ahmet</td>
+           <td>tfc holding</td>
+           <td>IT Manager</td>
+           <td>Leyton</td>
+       </tr>   
+
+    </table>
+</div>
+
+<!--forms and buttons -->
+<form>
+<div class="indoor-outdoor">
+  <fieldset>
+    <legend>Is your cat an indoor or outdoor cat?</legend>
+    <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+    <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+  </fieldset>
+</div>
+  <hr>
+  <div class="personality">
+  <fieldset>
+    <legend>What's your cat's personality?</legend>
+    <input id="loving" type="checkbox" name="personality" value="loving" checked> 
+    <label for="loving">Loving</label>
+    <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+    <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
+  </fieldset>
+  </div>
+  <hr>
+  <fieldset>
+      <legend>How do you travel to work?</legend>
+      <input type="checkbox" id="drive" name="drive" value="drive" checked>
+      <label for="drive>">Drive</label><br>
+      <input type="checkbox" id="Commute" name="commute" value="commute">
+      <label for="commute">Commute</label><br>
+      <input type="checkbox" id="bike" name="bike" value="bike">
+      <label for="bike">Bike</label><br>
+      <input type="checkbox" id="walk" name="walk" value="walk">
+      <label for="walk">Walk</label>
+  </fieldset>
+  <hr>
+  <h2><cite>Drinks</cite></h2>
+
+<div class="drinkwithmilk">
+    
+    <input type="checkbox" name="tea" id="tea"><label for="tea">Tea:</label>
+    <span>With milk?</span> <label for="yes">Yes</label><input type="radio" name="milk" id="milk" value="Yes" checked>
+    <label for="milk">No</label>
+    <input type="radio" name="milk" id="milk" value="No">
+        <br>
+    <input type="checkbox" id="americano" name="americano" value="americano"><label for="americano">Americano:</label>
+
+    <span style="color:red">With<cite>milk</cite>?</span><label for="milk"> Yes</label>
+    <input type="radio" name="yes-no" id="milk" value="Yes">
+    <label for="milk">No</label>
+    <input type="radio" name="yes-no" id="milk" value="No" checked>
+</div>
+
+    <hr>
+    <div>
+    <label for="name">Name (4 to 8 characters):</label>
+    <label for="name">Name (4 to 8 characters):</label>
+    <label for="name">Name (4 to 8 characters):</label>
+    <label for="name">Name (4 to 8 characters):</label>
+    
+
+<input type="text" id="name" name="name" required
+       minlength="4" maxlength="8" size="10">
+    </div>
+</form>
+    <form>
+        <fieldset>
+            <legend>Your Details</legend>
+            <label for="first">First name:</label>
+            <input type="text" id="first" name="first" placeholder="enter your first name"><br>
+            <label for="last">Last name:</label>
+            <input type="text" id="last" name="last" placeholder="enter your last name"><br>
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday"><br>
+            <label for="email">Your email:</label>
+            <input type="email" id="email" name="email"><br>
+            <label for="tel">Telephone number:</label>
+            <input type="tel" id="tel" name="tel"><br>
+            <input type="submit" value="Submit"><input type="reset" value="Reset">
+        </fieldset>
+    </form>
+    <label for="browser">Choose your browser from the list:</label>
+<input list="browsers" name="browser" id="browser">
+
+<datalist id="browsers">
+  <option value="Edge">
+  <option value="Firefox">
+  <option value="Chrome">
+  <option value="Opera">
+  <option value="Safari">
+</datalist>
+
+<script src="/HTMLSANDBOX/JS/JS-selfstudy3DOM.js"></script>
+</body>
+</html>
