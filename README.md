@@ -1,2 +1,2 @@
-<h1> MY HTML PRACTICES</h1>
+<h1> MY HTML & CSS PRACTICES</h1>
   
